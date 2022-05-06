@@ -100,3 +100,5 @@ while True:
 	except(EOFError):
 		print("\n[!] dasturni yopish...")
 		break
+	except Exception as e:
+		print("\n[!] Error: "+e)
